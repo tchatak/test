@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="design.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <div id="header">
+        <div id="Download">
+             <h2>Downloads per User</h2> 
+        </div>
+        <div id="info">
+            <div class="h-div">
+                Publisher&nbsp;
+                <select name="Publisher" id="Publisher">
+                    <option value="A">Publisher</option>
+                    <option value="S">AIZEN</option>
+                    <option value="L">LIEBERT</option>
+                    <option value="V">LELOUCHE</option>
+                    <option value="M">MORIARTY</option>
+                </select>
+            </div>
+            <div class="h-div">
+                From &nbsp;<input type="date">
+            </div>
+            <div class="h-div">
+                To&nbsp;<input type="date">
+            </div>
+            <button id="first-button">search</button>
+        </div>
+    </div>
+    <div id="header-2">
+        <div>show <input type="number" name="quantity" min="1" max="10" step="1" value="10" class="special-input"></div>
+        <div class="icon">
+            <input type="text" placeholder="&#x1F50D search">
+            <button id="hb1"><img src="filter.png" width="20px" height="20px" style="border: none;">&nbsp; Filter</button>
+            <button id="hb2"><img src="export.png" width="20px" height="20px" style="border: none;">&nbsp; export &darr;</button>
+        </div>
+    </div>
+</header>
+<body>
+<div id="first-div"> 
+<table>
+    <th>
+        <tr>
+            <td>NAME&darr;</td>
+            <td>TELEPHONE&darr;</td>
+            <td>DOWNLOAD&darr;</td>
+            <td>ACTION</td>
+        </tr>
+    </th>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">Amah Dante's</td>
+            <td style="background-image: linear-gradient(to right, rgb(255, 255, 231),white);">64587125</td>
+            <td>0</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">Cameroon's Tribune</td>
+            <td style="background-image: linear-gradient(to right, rgb(255, 255, 231),white);">645871235</td>
+            <td>14</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">Guardian Post</td>
+            <td style="background-image: linear-gradient(to right, rgb(255, 255, 231),white);">645123122</td>
+            <td>1,012</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">Jora</td>
+            <td style="background-image: linear-gradient(to right, rgb(255, 255, 231),white);">645871235</td>
+            <td>0</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">Le Jour</td>
+            <td style="background-image: linear-gradient(to right, rgb(255, 255, 231),white);">645452372</td>
+            <td>0</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">Meloli</td>
+            <td style="background-image: linear-gradient(to right, rgb(255, 255, 231),white);">64542776</td>
+            <td>0</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+    <span>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">Mutationsz</td>
+            <td style="background-image: linear-gradient(to right,rgb(254, 254, 247),rgb(246, 253, 255));">645871235</td>
+            <td style="background-image: linear-gradient(to right,rgb(246, 253, 255), rgb(255, 255, 255));">0</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">NFOR CARLTON</td>
+            <td style="background-image: linear-gradient(to right,rgb(254, 254, 247),rgb(240, 252, 255));">645871235</td>
+            <td style="background-image: linear-gradient(to right,rgb(240, 252, 255),rgb(255, 255, 255));">0</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">Ngwa</td>
+            <td style="background-image: linear-gradient(to right,rgb(254, 254, 247),rgb(214, 243, 249));">64424737</td>
+            <td style="background-image: linear-gradient(to right,rgb(214, 243, 249),rgb(255, 255, 255));">0</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+        <tr>
+            <td style="background-color: rgb(255, 255, 251);">njn</td>
+            <td style="background-image: linear-gradient(to right,rgb(254, 254, 247),rgb(218, 248, 255));">64734537</td>
+            <td style="background-image: linear-gradient(to right,rgb(218, 248, 255),rgb(255, 255, 255));">0</td>
+            <td><img src="eye.jpg" height="15px" width="15px"></td>
+        </tr>
+</table>
+</div>
+</body>
+<footer>
+    <div id="footer">
+        <p>records 1 to 10 of 73 entries</p>
+        <div class="foot">
+            <button class="np-button">&larr; Previous</button><button style="background-color: rgb(242, 174, 28); padding: 5px 7px; border-radius: 5px;">1</button><button>2</button><button>3</button><button>...</button><button>8</button><button>9</button><button>10</button><button class="np-button"> Next &rarr;</button>
+        </div>
+    </div>
+</footer>
+</html>
